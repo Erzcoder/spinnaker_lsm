@@ -1,0 +1,18 @@
+from pyNN.nest2 import *
+from pyNN.random import (NumpyRNG, RandomDistribution)
+
+cell_paams = {'tau_m': 20.0, 'tau_syn_E': 5.0, 'cm': 0.2, 'tau_syn_I': 10.0, 'v_rest': -49.0, 'v_reset': -60.0, 'v_thresh': -50.0, 'tau_refrac': 5.0}
+
+pE = Population(4000, IF_cond_exp, cell_params, label="Excitatory")
+pI = Population(1000, IF_cond_exp, cell_params, label="Inhibitory")
+
+unif_distr = RandomDistribution('uniform', [-50,-70])
+
+pE.randomInit(unif_distr)
+pI.randomInit(unif_distr)
+
+FPC = FixedProbabilityConnector
+exc_conn = FPC(0.02, weights=0.004, delays=0.1)
+inh_conn = FPC(0.02, weights=0.051, delays=0.1)
+
+
