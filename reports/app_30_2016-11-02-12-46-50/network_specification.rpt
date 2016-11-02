@@ -1,0 +1,37 @@
+        Network Specification
+ =====================
+
+Generated: Wed Nov  2 12:47:11 2016 for target machine '192.168.240.36'
+
+*** Vertices:
+Vertex Excitatory_Cells, size: 1200
+Model: <bound method IFCondExp.model_name of Excitatory_Cells with 1200 atoms>
+constraint: partitioner max atom per core constraint with size 50
+
+Vertex Inhibitory_Cells, size: 300
+Model: <bound method IFCondExp.model_name of Inhibitory_Cells with 300 atoms>
+constraint: partitioner max atom per core constraint with size 50
+
+Vertex expoisson, size: 20
+Model: SpikeSourcePoisson
+constraint: partitioner max atom per core constraint with size 500
+
+*** Edges:
+Edge Projection 0 from vertex: 'Excitatory_Cells' (1200 atoms) to vertex: 'Excitatory_Cells' (1200 atoms)
+  Model: No Model
+
+Edge Projection 1 from vertex: 'Excitatory_Cells' (1200 atoms) to vertex: 'Inhibitory_Cells' (300 atoms)
+  Model: No Model
+
+Edge Projection 2 from vertex: 'Inhibitory_Cells' (300 atoms) to vertex: 'Excitatory_Cells' (1200 atoms)
+  Model: No Model
+
+Edge Projection 3 from vertex: 'Inhibitory_Cells' (300 atoms) to vertex: 'Inhibitory_Cells' (300 atoms)
+  Model: No Model
+
+Edge Projection 4 from vertex: 'expoisson' (20 atoms) to vertex: 'Excitatory_Cells' (1200 atoms)
+  Model: No Model
+
+Edge Projection 5 from vertex: 'expoisson' (20 atoms) to vertex: 'Inhibitory_Cells' (300 atoms)
+  Model: No Model
+

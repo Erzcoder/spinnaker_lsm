@@ -1,0 +1,164 @@
+        Placement Information by Core
+        =============================
+
+Generated: Wed Nov  2 13:22:33 2016 for target machine '192.168.240.36'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 0:99 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 2: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 100:199 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 3: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 200:299 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 4: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 300:399 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 5: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 400:499 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 6: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 500:599 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 7: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 600:699 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 8: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 700:799 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 9: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 800:899 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 10: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 900:999 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 11: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 1000:1099 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 12: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 1100:1199 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 13: Vertex: 'Inhibitory_Cells', pop size: 300
+              Slice on this core: 0:99 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Inhibitory_Cells with 300 atoms>
+
+
+  Processor 14: Vertex: 'Inhibitory_Cells', pop size: 300
+              Slice on this core: 100:199 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Inhibitory_Cells with 300 atoms>
+
+
+  Processor 15: Vertex: 'Inhibitory_Cells', pop size: 300
+              Slice on this core: 200:299 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Inhibitory_Cells with 300 atoms>
+
+
+  Processor 16: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 0:99 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 100:199 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 2: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 200:299 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 3: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 300:399 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 4: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 400:499 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 5: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 500:599 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 6: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 600:699 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 7: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 700:799 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 8: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 800:899 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 9: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 900:999 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 10: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 1000:1099 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 11: Vertex: 'Excitatory_Cells', pop size: 1200
+              Slice on this core: 1100:1199 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Excitatory_Cells with 1200 atoms>
+
+
+  Processor 12: Vertex: 'Inhibitory_Cells', pop size: 300
+              Slice on this core: 0:99 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Inhibitory_Cells with 300 atoms>
+
+
+  Processor 13: Vertex: 'Inhibitory_Cells', pop size: 300
+              Slice on this core: 100:199 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Inhibitory_Cells with 300 atoms>
+
+
+  Processor 14: Vertex: 'Inhibitory_Cells', pop size: 300
+              Slice on this core: 200:299 (100 atoms)
+              Model: <bound method IzkCondExp.model_name of Inhibitory_Cells with 300 atoms>
+
+
+  Processor 15: Vertex: 'expoisson', pop size: 20
+              Slice on this core: 0:19 (20 atoms)
+              Model: SpikeSourcePoisson
+
+
