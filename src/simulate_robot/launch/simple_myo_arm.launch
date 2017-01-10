@@ -6,4 +6,6 @@
   <rosparam file="$(find simulate_robot)/controllers.yaml" command="load"/>
   <node name="controller_spawner" pkg="controller_manager" type="spawner"
     args="arm_controller"/>
+  <node name="simulate_robot" pkg="simulate_robot" type="simple_network_node.py" cwd="node"/>
+
 </launch>
