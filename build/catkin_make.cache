@@ -1,0 +1,2 @@
+simulate_robot
+-DCATKIN_DEVEL_PREFIX=/home/nicolas/master_thesis/spinnaker_lsm/devel -DCMAKE_INSTALL_PREFIX=/home/nicolas/master_thesis/spinnaker_lsm/install -G Unix Makefiles
