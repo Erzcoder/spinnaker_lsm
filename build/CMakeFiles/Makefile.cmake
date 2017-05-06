@@ -15,9 +15,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "simulate_robot/catkin_generated/ordered_paths.cmake"
   "simulate_robot/catkin_generated/package.cmake"
+  "spinnaker_ros_lsm/catkin_generated/ordered_paths.cmake"
+  "spinnaker_ros_lsm/catkin_generated/package.cmake"
   "/home/nicolas/master_thesis/spinnaker_lsm/src/CMakeLists.txt"
   "/home/nicolas/master_thesis/spinnaker_lsm/src/simulate_robot/CMakeLists.txt"
   "/home/nicolas/master_thesis/spinnaker_lsm/src/simulate_robot/package.xml"
+  "/home/nicolas/master_thesis/spinnaker_lsm/src/spinnaker_ros_lsm/CMakeLists.txt"
+  "/home/nicolas/master_thesis/spinnaker_lsm/src/spinnaker_ros_lsm/package.xml"
   "/opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake"
   "/opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake"
@@ -120,6 +124,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/rospy/cmake/rospyConfig.cmake"
   "/opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake"
   "/opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake"
+  "/opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake"
+  "/opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake"
+  "/opt/ros/kinetic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake"
   "/opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake"
   "/opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake"
   "/opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake"
@@ -180,6 +187,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "simulate_robot/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "spinnaker_ros_lsm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -227,4 +235,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "simulate_robot/CMakeFiles/control_msgs_generate_messages_eus.dir/DependInfo.cmake"
   "simulate_robot/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "simulate_robot/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake"
+  "spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake"
+  "spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
+  "spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+  "spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   )

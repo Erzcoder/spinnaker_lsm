@@ -70,8 +70,8 @@ install/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -724,6 +724,71 @@ trajectory_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f simulate_robot/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make simulate_robot/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -780,6 +845,11 @@ help:
 	@echo "... control_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_cpp"
 .PHONY : help
 
 

@@ -1,0 +1,8 @@
+prefix=/home/nicolas/master_thesis/spinnaker_lsm/devel
+
+Name: spinnaker_ros_lsm
+Description: Description of spinnaker_ros_lsm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nicolas/master_thesis/spinnaker_lsm/devel/lib 
+Requires: 
