@@ -1,3 +1,8 @@
+<!--	node: 	simple_network_node.py
+	
+	model: 	simple_myo_robot_gazebo.urdf
+  -->
+
 <launch>
   <param name="robot_description" textfile="$(find simulate_robot)/robot_models/simple_myo_robot_gazebo.urdf" />
   <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
