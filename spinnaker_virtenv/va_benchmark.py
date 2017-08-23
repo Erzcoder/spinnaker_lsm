@@ -37,7 +37,7 @@ stim_dur = 50.    # (ms) duration of random stimulation
 rate = 100.       # (Hz) frequency of the random stimulation
 
 dt = 1.0          # (ms) simulation timestep
-tstop = 1000      # (ms) simulaton duration
+tstop = 100      # (ms) simulaton duration
 delay = 2
 
 # Cell parameters
