@@ -1,0 +1,6 @@
+[submodule "src/myoarm_small_FPGA"]
+	path = src/myoarm_small_FPGA
+	url = https://github.com/Roboy/myoarm_small_FPGA.git
+[submodule "src/roboy_middleware"]
+	path = src/roboy_middleware
+	url = https://github.com/Roboy/roboy_middleware.git
