@@ -23,7 +23,7 @@ from ros_spinnaker_interface import SpikeSinkSmoothing
 
 
 ts = 0.1				 # simulation timestep in ms
-simulation_time = 3000  # ms
+simulation_time = 10000  # ms
 
 n_input_neurons   = 1
 n_readout_neurons = 2	 # 
