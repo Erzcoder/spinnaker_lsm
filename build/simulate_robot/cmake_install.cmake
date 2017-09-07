@@ -1,8 +1,8 @@
-# Install script for directory: /home/nicolas/master_thesis/spinnaker_lsm/src/simulate_robot
+# Install script for directory: /home/roboy/workspace/spinnaker_lsm/src/simulate_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nicolas/master_thesis/spinnaker_lsm/install")
+  set(CMAKE_INSTALL_PREFIX "/home/roboy/workspace/spinnaker_lsm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/simulate_robot/catkin_generated/installspace/simulate_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/build/simulate_robot/catkin_generated/installspace/simulate_robot.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulate_robot/cmake" TYPE FILE FILES
-    "/home/nicolas/master_thesis/spinnaker_lsm/build/simulate_robot/catkin_generated/installspace/simulate_robotConfig.cmake"
-    "/home/nicolas/master_thesis/spinnaker_lsm/build/simulate_robot/catkin_generated/installspace/simulate_robotConfig-version.cmake"
+    "/home/roboy/workspace/spinnaker_lsm/build/simulate_robot/catkin_generated/installspace/simulate_robotConfig.cmake"
+    "/home/roboy/workspace/spinnaker_lsm/build/simulate_robot/catkin_generated/installspace/simulate_robotConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulate_robot" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/src/simulate_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulate_robot" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/src/simulate_robot/package.xml")
 endif()
 

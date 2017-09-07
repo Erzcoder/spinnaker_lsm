@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "simulate_robot"
-PROJECT_SPACE_DIR = "/home/nicolas/master_thesis/spinnaker_lsm/devel"
+PROJECT_SPACE_DIR = "/home/roboy/workspace/spinnaker_lsm/devel"
 PROJECT_VERSION = "0.0.0"

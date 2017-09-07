@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/roboy/workspace/spinnaker_lsm/myoarm_small_FPGA/devel -DCMAKE_INSTALL_PREFIX=/home/roboy/workspace/spinnaker_lsm/myoarm_small_FPGA/install -G Unix Makefiles

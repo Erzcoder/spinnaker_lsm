@@ -1,0 +1,8 @@
+prefix=/home/roboy/workspace/spinnaker_lsm/install
+
+Name: spinn_ros_msgs
+Description: Description of spinn_ros_msgs
+Version: 0.0.0
+Cflags: -I/home/roboy/workspace/spinnaker_lsm/install/include
+Libs: -L/home/roboy/workspace/spinnaker_lsm/install/lib 
+Requires: message_runtime

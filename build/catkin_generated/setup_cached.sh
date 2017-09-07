@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/nicolas/master_thesis/spinnaker_lsm/build"
+export PWD="/home/roboy/workspace/spinnaker_lsm/build"

@@ -1,0 +1,21 @@
+[submodule "src/common_utilities"]
+	path = src/common_utilities
+	url = https://github.com/Roboy/common_utilities.git
+[submodule "src/roboy_communication"]
+	path = src/roboy_communication
+	url = https://github.com/Roboy/roboy_communication.git
+[submodule "src/roboy_controlled_node_fpga"]
+	path = src/roboy_controlled_node_fpga
+	url = https://github.com/Roboy/roboy_controlled_node_fpga.git
+[submodule "src/roboy_interface"]
+	path = src/roboy_interface
+	url = https://github.com/Roboy/roboy_interface.git
+[submodule "src/roboy_managing_node"]
+	path = src/roboy_managing_node
+	url = https://github.com/Roboy/roboy_managing_node.git
+[submodule "src/roboy_powerlink"]
+	path = src/roboy_powerlink
+	url = https://github.com/Roboy/roboy_powerlink.git
+[submodule "src/roboy_fpga"]
+	path = src/roboy_fpga
+	url = https://github.com/Roboy/roboy_fpga.git

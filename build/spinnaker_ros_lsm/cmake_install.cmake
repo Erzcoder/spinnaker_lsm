@@ -1,8 +1,8 @@
-# Install script for directory: /home/nicolas/master_thesis/spinnaker_lsm/src/spinnaker_ros_lsm
+# Install script for directory: /home/roboy/workspace/spinnaker_lsm/src/spinnaker_ros_lsm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nicolas/master_thesis/spinnaker_lsm/install")
+  set(CMAKE_INSTALL_PREFIX "/home/roboy/workspace/spinnaker_lsm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm/catkin_generated/installspace/spinnaker_ros_lsm.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm/catkin_generated/installspace/spinnaker_ros_lsm.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spinnaker_ros_lsm/cmake" TYPE FILE FILES
-    "/home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm/catkin_generated/installspace/spinnaker_ros_lsmConfig.cmake"
-    "/home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm/catkin_generated/installspace/spinnaker_ros_lsmConfig-version.cmake"
+    "/home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm/catkin_generated/installspace/spinnaker_ros_lsmConfig.cmake"
+    "/home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm/catkin_generated/installspace/spinnaker_ros_lsmConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spinnaker_ros_lsm" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/src/spinnaker_ros_lsm/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spinnaker_ros_lsm" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/src/spinnaker_ros_lsm/package.xml")
 endif()
 

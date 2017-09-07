@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<roboy_trajectory control_mode="2" samplingTime="10">
+<trajectory motorid="0">
+0 </trajectory>
+<trajectory motorid="1">
+0 </trajectory>
+<trajectory motorid="2">
+0 </trajectory>
+<trajectory motorid="3">
+0 </trajectory>
+<trajectory motorid="4">
+0 </trajectory>
+<trajectory motorid="5">
+0 </trajectory>
+<trajectory motorid="6">
+0 </trajectory>
+<trajectory motorid="7">
+0 </trajectory>
+<trajectory motorid="8">
+0 </trajectory>
+<trajectory motorid="9">
+0 </trajectory>
+<trajectory motorid="10">
+0 </trajectory>
+<trajectory motorid="11">
+0 </trajectory>
+<trajectory motorid="12">
+0 </trajectory>
+<trajectory motorid="13">
+1 </trajectory>
+</roboy_trajectory>

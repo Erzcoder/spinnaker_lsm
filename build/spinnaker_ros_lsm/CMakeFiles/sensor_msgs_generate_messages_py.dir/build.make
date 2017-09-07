@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicolas/master_thesis/spinnaker_lsm/src
+CMAKE_SOURCE_DIR = /home/roboy/workspace/spinnaker_lsm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicolas/master_thesis/spinnaker_lsm/build
+CMAKE_BINARY_DIR = /home/roboy/workspace/spinnaker_lsm/build
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/build: sensor_
 .PHONY : spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 
 spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	cd /home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/nicolas/master_thesis/spinnaker_lsm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicolas/master_thesis/spinnaker_lsm/src /home/nicolas/master_thesis/spinnaker_lsm/src/spinnaker_ros_lsm /home/nicolas/master_thesis/spinnaker_lsm/build /home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm /home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/roboy/workspace/spinnaker_lsm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roboy/workspace/spinnaker_lsm/src /home/roboy/workspace/spinnaker_lsm/src/spinnaker_ros_lsm /home/roboy/workspace/spinnaker_lsm/build /home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm /home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : spinnaker_ros_lsm/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

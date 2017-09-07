@@ -1,8 +1,8 @@
-# Install script for directory: /home/nicolas/master_thesis/spinnaker_lsm/src
+# Install script for directory: /home/roboy/workspace/spinnaker_lsm/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nicolas/master_thesis/spinnaker_lsm/install")
+  set(CMAKE_INSTALL_PREFIX "/home/roboy/workspace/spinnaker_lsm/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,81 +44,82 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nicolas/master_thesis/spinnaker_lsm/install/_setup_util.py")
+   "/home/roboy/workspace/spinnaker_lsm/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nicolas/master_thesis/spinnaker_lsm/install" TYPE PROGRAM FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/roboy/workspace/spinnaker_lsm/install" TYPE PROGRAM FILES "/home/roboy/workspace/spinnaker_lsm/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nicolas/master_thesis/spinnaker_lsm/install/env.sh")
+   "/home/roboy/workspace/spinnaker_lsm/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nicolas/master_thesis/spinnaker_lsm/install" TYPE PROGRAM FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/roboy/workspace/spinnaker_lsm/install" TYPE PROGRAM FILES "/home/roboy/workspace/spinnaker_lsm/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nicolas/master_thesis/spinnaker_lsm/install/setup.bash")
+   "/home/roboy/workspace/spinnaker_lsm/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nicolas/master_thesis/spinnaker_lsm/install" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/roboy/workspace/spinnaker_lsm/install" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/build/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nicolas/master_thesis/spinnaker_lsm/install/setup.sh")
+   "/home/roboy/workspace/spinnaker_lsm/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nicolas/master_thesis/spinnaker_lsm/install" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/roboy/workspace/spinnaker_lsm/install" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/build/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nicolas/master_thesis/spinnaker_lsm/install/setup.zsh")
+   "/home/roboy/workspace/spinnaker_lsm/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nicolas/master_thesis/spinnaker_lsm/install" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/roboy/workspace/spinnaker_lsm/install" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/build/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nicolas/master_thesis/spinnaker_lsm/install/.rosinstall")
+   "/home/roboy/workspace/spinnaker_lsm/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nicolas/master_thesis/spinnaker_lsm/install" TYPE FILE FILES "/home/nicolas/master_thesis/spinnaker_lsm/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/roboy/workspace/spinnaker_lsm/install" TYPE FILE FILES "/home/roboy/workspace/spinnaker_lsm/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nicolas/master_thesis/spinnaker_lsm/build/gtest/cmake_install.cmake")
-  include("/home/nicolas/master_thesis/spinnaker_lsm/build/simulate_robot/cmake_install.cmake")
-  include("/home/nicolas/master_thesis/spinnaker_lsm/build/spinnaker_ros_lsm/cmake_install.cmake")
+  include("/home/roboy/workspace/spinnaker_lsm/build/gtest/cmake_install.cmake")
+  include("/home/roboy/workspace/spinnaker_lsm/build/simulate_robot/cmake_install.cmake")
+  include("/home/roboy/workspace/spinnaker_lsm/build/spinn_ros_msgs/cmake_install.cmake")
+  include("/home/roboy/workspace/spinnaker_lsm/build/spinnaker_ros_lsm/cmake_install.cmake")
 
 endif()
 
@@ -130,5 +131,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nicolas/master_thesis/spinnaker_lsm/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/roboy/workspace/spinnaker_lsm/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

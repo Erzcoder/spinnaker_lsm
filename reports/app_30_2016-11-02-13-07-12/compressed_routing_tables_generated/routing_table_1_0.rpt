@@ -1,6 +1,0 @@
-Router contains 2 entries
-Index Key        Mask       Route      Default [Cores][Links]
------ ---------- ---------- ---------- ------- --------------
-    0 0x00000180 0xFFFFFF80 0x001FFF80 False   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] []
-    1 0x00000000 0xFFFFF800 0x001FFF88 False   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] [W]
-0 Defaultable entries

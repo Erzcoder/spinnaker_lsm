@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Export-Package: spinn_ros_msgs;version="0.0.0";uses:="org.jboss.netty.
+ buffer,org.ros.internal.message"
+Bundle-SymbolicName: org.ros.rosjava_messages.spinn_ros_msgs
+Bundle-Version: 0.0.0
+Bundle-Name: spinn_ros_msgs
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1504739797000
+Import-Package: org.jboss.netty.buffer;version="[3.5,4)",org.ros.inter
+ nal.message
+Created-By: 1.8.0_131 (Oracle Corporation)
+Tool: Bnd-2.1.0.20130426-122213
+
